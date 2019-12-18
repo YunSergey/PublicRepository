@@ -1,4 +1,4 @@
-# "Снятие защиты листа в документах Microsoft Excel"
+# "Снятие защиты листа в документах Microsoft Excel" v1.1 (18.12.2019)
 # Yun Sergey
 # wot@yun.kz
 
@@ -32,19 +32,23 @@ def checkSheetProtection (docName):
     getListFiles = set(os.listdir(tempPatch))
 
     for xmlFileName in getListFiles:
+        if not xmlFileName.endswith('.xml'):
+            print(xmlFileName, 'не xml файл, обработка пропущена')
+            continue
+
         fo = open(tempPatch + xmlFileName, 'r+')
         file = fo.read ()
 
         if '<sheetProtection' in file:
-            statusText = 'защита обнаружена'
+            statusText = 'защищен паролем (!)'
             startStr = file.find('<sheetProtection') # Начало нужного тега
-            endStr = file.rfind('<pageMargins') # Начало следующего тега
+            endStr = file.find('/><', startStr)+2 #+2 символа "/>"
             texts = file[:startStr] + file[endStr:] # Собираем новый файл: текст "до тега" + текст "после тега"
             fo = open(tempPatch + xmlFileName, 'w') # Перезапись исходного файла пустым
             fo.write(texts) # Запись значений
         else:
-            statusText = 'защита не обнаружена'
-        print(f'\tДокумент {docName}, страница {xmlFileName} {statusText}')
+            statusText = 'не защищен паролем'
+        print(f'\tстраница {xmlFileName} {statusText}')
     return
 
 
