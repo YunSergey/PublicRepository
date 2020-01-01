@@ -10,35 +10,43 @@ import zipfile
 
 # FUNCTIONS
 
-def checkFileExtension(fileName, importPath, exportPath, NotXLSX=None):
-    if not fileName.endswith('.xlsx'):  # Если файл не Excel переместить его в Export без обработки
-        NotXLSX = True  # Не файл Excel"
-        print(f'> {fileName} не является файлом Microsoft Excel и был перемещен без обработки.')
-        if os.path.exists(exportPath):  # Удалить файл в export если он уже имеется
-            os.remove(exportPath)
-        os.rename(importPath, exportPath)
+def checkFileExtension(file_name: str, import_path: str, export_path: str, NotXLSX=None):
+    """ Проверка расширения файла.
+        Если не xlsx - переместить в export без обработки(перезаписать если имеется).
+        Если xlsx - вернуть признак NotXLSX == False."""
+
+    if not file_name.endswith('.xlsx'):
+        NotXLSX = True
+        print(f'> {file_name} не является файлом Microsoft Excel и был перемещен без обработки.')
+        if os.path.exists(export_path):
+            os.remove(export_path)
+        os.rename(import_path, export_path)
     else:
-        print(f'> {fileName} документ Microsoft Excel, обработка начата.')
+        print(f'> {file_name} документ Microsoft Excel, обработка начата.')
     return NotXLSX
 
 
-def unpackFile(fileName, importPath):  # Распаковка файла .xlsx в временную папку
-    extFile = zipfile.ZipFile(importPath)
-    extFile.extractall(tempDir)  # распаковка во временную папку
-    extFile.close()  # закрытие архива
+def unpackFile(import_path: str, temp_dir: str):  # Распаковка файла .xlsx во временную папку
+    ''' Распаковка файла во временную папку'''
+    with zipfile.ZipFile(import_path) as extFile:
+        extFile.extractall(temp_dir)  # распаковка во временную папку
     return
 
 
-def checkSheetProtection(docName):
-    tempPatch = tempDir + '\\xl\worksheets\\'
-    getListFiles = set(os.listdir(tempPatch))
+def checkSheetProtection(temp_dir: str):
+    """'Перебор файлов для поиска защищенных страниц xml с тегом защиты).
+        В случае обнаружения защищенной страницы, поиск позиции: открытия тега, закрытия тега.
+        Объединение содержимого файла до тега и после тега, запись нового файла"""
 
-    for xmlFileName in getListFiles:
-        if not xmlFileName.endswith('.xml'):
-            print(xmlFileName, 'не xml файл, обработка пропущена')
+    tempPatch = temp_dir + '\\xl\worksheets\\'
+    get_list_files = set(os.listdir(tempPatch))
+
+    for xml_file_name in get_list_files:
+        if not xml_file_name.endswith('.xml'):
+            print(xml_file_name, 'не xml файл, обработка пропущена')
             continue
 
-        fo = open(tempPatch + xmlFileName, 'r+')
+        fo = open(tempPatch + xml_file_name, 'r+')
         file = fo.read()
 
         if '<sheetProtection' in file:
@@ -46,21 +54,22 @@ def checkSheetProtection(docName):
             startStr = file.find('<sheetProtection')  # Начало нужного тега
             endStr = file.find('/><', startStr) + 2  # +2 символа "/>"
             texts = file[:startStr] + file[endStr:]  # Собираем новый файл: текст "до тега" + текст "после тега"
-            fo = open(tempPatch + xmlFileName, 'w')  # Перезапись исходного файла пустым
+            fo = open(tempPatch + xml_file_name, 'w')  # Перезапись исходного файла пустым
             fo.write(texts)  # Запись значений
         else:
             statusText = 'не защищен паролем'
-        print(f'\tстраница {xmlFileName} {statusText}')
+        print(f'\tстраница {xml_file_name} {statusText}')
     return
 
 
-def packFile(fileName, exportPath):
-    if os.path.exists(exportPath):  # Удалить файл в export если он уже имеется
-        os.remove(exportPath)
+def packFile(file_name, export_path):
+    '''Упаковка и смена расширения готового файла xlsx'''
+    if os.path.exists(export_path):  # Удалить файл в export если он уже имеется
+        os.remove(export_path)
 
-    shutil.make_archive(fileName, 'zip', tempDir)
-    os.rename(os.getcwd() + '\\' + fileName + '.zip', exportPath)
-    print(f'> Файл {fileName} обработан')
+    shutil.make_archive(file_name, 'zip', tempDir)
+    os.rename(os.getcwd() + '\\' + file_name + '.zip', export_path)
+    print(f'> Файл {file_name} обработан')
     return
 
 
@@ -80,13 +89,14 @@ for fileName in getListFiles:
     importPath = importDirectory + fileName  # Полный путь файла в папке import
     exportPath = exportDirectory + fileName  # Полный путь файла в папке export
 
-    if checkFileExtension(fileName, importPath, exportPath): continue  # Если не файл xlsx, перемещение и переход к новому файлу
+    if checkFileExtension(fileName, importPath,
+                          exportPath): continue  # Если не файл xlsx, перемещение и переход к новому файлу
 
     with tempfile.TemporaryDirectory(dir=os.getcwd()) as tempDir:  # Создание временной директории
 
-        unpackFile(fileName, importPath)  # Распаковка .xlsx файла во временный каталог
+        unpackFile(importPath, tempDir)  # Распаковка .xlsx файла во временный каталог
 
-        checkSheetProtection(fileName)  # Проверка защиты листа и удаление тэга защиты
+        checkSheetProtection(tempDir, fileName)  # Проверка защиты листа и удаление тэга защиты
 
         packFile(fileName, exportPath)  # Упаковка .xlsx файла и перемещение в export
 
