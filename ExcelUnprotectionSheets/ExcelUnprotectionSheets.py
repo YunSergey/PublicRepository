@@ -68,7 +68,7 @@ def packFile(file_name, export_path):
         os.remove(export_path)
 
     shutil.make_archive(file_name, 'zip', tempDir)
-    os.rename(os.getcwd() + '\\' + file_name + '.zip', export_path)
+    os.rename(f'{os.getcwd()} \\{file_name}.zip', export_path)
     print(f'> Файл {file_name} обработан')
     return
 
