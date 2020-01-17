@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PublicRepository.iml" filepath="$PROJECT_DIR$/.idea/PublicRepository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PyCharm/.idea/PyCharm.iml" filepath="$PROJECT_DIR$/../PyCharm/.idea/PyCharm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SkillBox/.idea/SkillBox.iml" filepath="$PROJECT_DIR$/../SkillBox/.idea/SkillBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../YunSergeyBasket/.idea/YunSergeyBasket.iml" filepath="$PROJECT_DIR$/../YunSergeyBasket/.idea/YunSergeyBasket.iml" />
     </modules>
   </component>
 </project>
