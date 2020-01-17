@@ -37,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../YunSergeyBasket" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -443,17 +443,17 @@
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576899171595" />
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578906911110" />
     <state x="2620" y="332" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578835499171" />
-    <state x="598" y="116" key="CommitChangelistDialog2" timestamp="1579253254531">
+    <state x="598" y="116" key="CommitChangelistDialog2" timestamp="1579257320408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198812170" />
-    <state x="598" y="116" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579253254531" />
+    <state x="598" y="116" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579257320408" />
     <state x="2518" y="119" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579095829705" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1579252876937">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1579257327562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576723033982" />
-    <state x="740" y="277" key="FileChooserDialogImpl/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579252876937" />
+    <state x="740" y="277" key="FileChooserDialogImpl/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579257327562" />
     <state x="794" y="420" width="356" height="200" key="Github.CreateGistDialog" timestamp="1579253368929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
