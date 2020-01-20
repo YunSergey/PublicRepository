@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="Complete 01.02: &quot;Point in the circle?&quot;">
+    <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_base/lesson_002/01_circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_002/01_circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_base/lesson_002/05_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_002/05_zoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,32 +69,7 @@
       <recent name="D:\Python\PyCharm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_circle">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PublicRepository/SkillBox.ru/HTML&amp;CSS/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="00_distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/00_distance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.05_zoo">
     <configuration name="01_circle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01_os_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,12 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_001" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_001/01_os_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/02_operations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,20 +114,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyCharm" />
+    <configuration name="03_favorite_movies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyCharm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyCharm/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/03_favorite_movies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_my_family" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/04_my_family.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_zoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/05_zoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05_zoo" />
+        <item itemvalue="Python.04_my_family" />
+        <item itemvalue="Python.03_favorite_movies" />
+        <item itemvalue="Python.02_operations" />
         <item itemvalue="Python.01_circle" />
-        <item itemvalue="Python.00_distance" />
-        <item itemvalue="Python.01_os_info" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +231,7 @@
       <workItem from="1579248992654" duration="1564000" />
       <workItem from="1579252865825" duration="10504000" />
       <workItem from="1579330449355" duration="2512000" />
-      <workItem from="1579420386417" duration="5233000" />
+      <workItem from="1579420386417" duration="8247000" />
     </task>
     <task id="LOCAL-00001" summary="ADD BestCodes.py">
       <created>1576724284992</created>
@@ -501,7 +520,49 @@
       <option name="project" value="LOCAL" />
       <updated>1579503159106</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Complete 01.02: comment correction">
+      <created>1579503267895</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1579503267895</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Complete 01.03: &quot;Point in the circle?&quot;">
+      <created>1579503359683</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1579503359683</updated>
+    </task>
+    <task id="LOCAL-00044" summary="01.01 and 01.02 - Program output format correction">
+      <created>1579503423866</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1579503423866</updated>
+    </task>
+    <task id="LOCAL-00045" summary="02.01 Complete : create a formula">
+      <created>1579503677403</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1579503677403</updated>
+    </task>
+    <task id="LOCAL-00046" summary="03.01 Complete: line output">
+      <created>1579504358543</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1579504358543</updated>
+    </task>
+    <task id="LOCAL-00047" summary="04.01 Complete: two options">
+      <created>1579505843530</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1579505843530</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,12 +584,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="ADD not important" />
-    <MESSAGE value="ADD AVR" />
-    <MESSAGE value="ADD BestCodes.py" />
-    <MESSAGE value="Variable name change and replace != -&gt; not" />
-    <MESSAGE value="New Version CheckCost4.py" />
-    <MESSAGE value="ADD Генератор списков" />
     <MESSAGE value="change predrelise" />
     <MESSAGE value="add taskkill : key /t" />
     <MESSAGE value="add input" />
@@ -548,7 +603,13 @@
     <MESSAGE value="Complete 00_distance.py" />
     <MESSAGE value="Complete 01.01: area of a circle" />
     <MESSAGE value="Complete 01.02: &quot;Point in the circle?&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete 01.02: &quot;Point in the circle?&quot;" />
+    <MESSAGE value="Complete 01.02: comment correction" />
+    <MESSAGE value="Complete 01.03: &quot;Point in the circle?&quot;" />
+    <MESSAGE value="01.01 and 01.02 - Program output format correction" />
+    <MESSAGE value="02.01 Complete : create a formula" />
+    <MESSAGE value="03.01 Complete: line output" />
+    <MESSAGE value="04.01 Complete: two options" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.01 Complete: two options" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Inspections" timestamp="1576723055700">
@@ -565,11 +626,11 @@
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576899171595" />
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578906911110" />
     <state x="2620" y="332" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578835499171" />
-    <state x="260" y="30" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1579503358785">
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1579505843049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198812170" />
-    <state x="260" y="30" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579503358785" />
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579505843049" />
     <state x="2403" y="119" width="1311" height="812" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579333007665" />
     <state x="2012" y="95" width="1736" height="856" key="DiffContextDialog" timestamp="1579332890142">
       <screen x="1920" y="3" width="1920" height="1040" />
@@ -584,29 +645,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="420" width="356" height="200" key="Github.CreateGistDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579253368929" />
-    <state width="1877" height="454" key="GridCell.Tab.0.bottom" timestamp="1579503382383">
+    <state width="1877" height="454" key="GridCell.Tab.0.bottom" timestamp="1579506387390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579503382383" />
+    <state width="1877" height="454" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387390" />
     <state width="1877" height="447" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="1877" height="454" key="GridCell.Tab.0.center" timestamp="1579503382382">
+    <state width="1877" height="454" key="GridCell.Tab.0.center" timestamp="1579506387390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579503382382" />
+    <state width="1877" height="454" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387390" />
     <state width="1877" height="447" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="1877" height="454" key="GridCell.Tab.0.left" timestamp="1579503382382">
+    <state width="1877" height="454" key="GridCell.Tab.0.left" timestamp="1579506387389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579503382382" />
+    <state width="1877" height="454" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387389" />
     <state width="1877" height="447" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868867" />
-    <state width="1877" height="454" key="GridCell.Tab.0.right" timestamp="1579503382382">
+    <state width="1877" height="454" key="GridCell.Tab.0.right" timestamp="1579506387390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579503382382" />
+    <state width="1877" height="454" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387390" />
     <state width="1877" height="447" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578713355915">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -678,23 +739,27 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576991976810" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PublicRepository$CheckCost4.coverage" NAME="CheckCost4 Coverage Results" MODIFIED="1577072959530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/CheckCost" />
     <SUITE FILE_PATH="coverage/PublicRepository$AVRemover.coverage" NAME="AVRemover Coverage Results" MODIFIED="1577100442962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
     <SUITE FILE_PATH="coverage/PublicRepository$testmulti.coverage" NAME="testmulti Coverage Results" MODIFIED="1576925577645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$hacker_brute_force.coverage" NAME="hacker-brute-force Coverage Results" MODIFIED="1576928073217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$lib_winreg.coverage" NAME="lib_winreg Coverage Results" MODIFIED="1576841180493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyCode" />
+    <SUITE FILE_PATH="coverage/PublicRepository$02_operations.coverage" NAME="02_operations Coverage Results" MODIFIED="1579504108297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
+    <SUITE FILE_PATH="coverage/PublicRepository$05_zoo.coverage" NAME="05_zoo Coverage Results" MODIFIED="1579506387383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
+    <SUITE FILE_PATH="coverage/PublicRepository$setup.coverage" NAME="setup Coverage Results" MODIFIED="1578832304838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/build" />
+    <SUITE FILE_PATH="coverage/PublicRepository$00_distance.coverage" NAME="00_distance Coverage Results" MODIFIED="1579502151708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
+    <SUITE FILE_PATH="coverage/PublicRepository$test.coverage" NAME="test Coverage Results" MODIFIED="1579098868859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
+    <SUITE FILE_PATH="coverage/PublicRepository$04_my_family.coverage" NAME="04_my_family Coverage Results" MODIFIED="1579505747030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
+    <SUITE FILE_PATH="coverage/PublicRepository$01_os_info.coverage" NAME="01_os_info Coverage Results" MODIFIED="1579267956869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_001" />
+    <SUITE FILE_PATH="coverage/PublicRepository$CheckCost4.coverage" NAME="CheckCost4 Coverage Results" MODIFIED="1577072959530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/CheckCost" />
     <SUITE FILE_PATH="coverage/PublicRepository$AVRemover1.coverage" NAME="AVRemover1 Coverage Results" MODIFIED="1577024941890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
     <SUITE FILE_PATH="coverage/PublicRepository$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1576923354937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$hacker_brute_force_01.coverage" NAME="hacker-brute-force-01 Coverage Results" MODIFIED="1576929140200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$checkUpdateCOHO.coverage" NAME="checkUpdateCOHO Coverage Results" MODIFIED="1578907288096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject" />
     <SUITE FILE_PATH="coverage/PublicRepository$AVRemover_v0_1.coverage" NAME="AVRemover-v0.1 Coverage Results" MODIFIED="1576991715546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
-    <SUITE FILE_PATH="coverage/PublicRepository$setup.coverage" NAME="setup Coverage Results" MODIFIED="1578832304838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/build" />
-    <SUITE FILE_PATH="coverage/PublicRepository$00_distance.coverage" NAME="00_distance Coverage Results" MODIFIED="1579502151708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
-    <SUITE FILE_PATH="coverage/PublicRepository$test.coverage" NAME="test Coverage Results" MODIFIED="1579098868859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
+    <SUITE FILE_PATH="coverage/PublicRepository$03_favorite_movies.coverage" NAME="03_favorite_movies Coverage Results" MODIFIED="1579504215361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$itertools_finished.coverage" NAME="itertools_finished Coverage Results" MODIFIED="1576723944354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm/Ex_Files_Adv_Python/Exercise Files/02 BuiltIn Functions" />
     <SUITE FILE_PATH="coverage/PublicRepository$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1578741216772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
     <SUITE FILE_PATH="coverage/PublicRepository$server.coverage" NAME="server Coverage Results" MODIFIED="1578914929262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/MyServer" />
-    <SUITE FILE_PATH="coverage/PublicRepository$01_os_info.coverage" NAME="01_os_info Coverage Results" MODIFIED="1579267956869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_001" />
     <SUITE FILE_PATH="coverage/PublicRepository$defaultdict_start.coverage" NAME="defaultdict_start Coverage Results" MODIFIED="1576752463455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm/Ex_Files_Adv_Python/Exercise Files/04 Collections" />
     <SUITE FILE_PATH="coverage/PublicRepository$ExcelUnprotectionSheets.coverage" NAME="ExcelUnprotectionSheets Coverage Results" MODIFIED="1577000996123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExcelUnprotectionSheets" />
     <SUITE FILE_PATH="coverage/PublicRepository$BestCodes.coverage" NAME="BestCodes Coverage Results" MODIFIED="1578801712405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyCode" />
