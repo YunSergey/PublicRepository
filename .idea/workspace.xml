@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_base/lesson_002/05_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_002/05_zoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_base/lesson_002/06_songs_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_002/06_songs_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,29 +69,7 @@
       <recent name="D:\Python\PyCharm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05_zoo">
-    <configuration name="01_circle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/01_circle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.06_songs_list">
     <configuration name="02_operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,13 +158,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="06_songs_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/06_songs_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06_songs_list" />
         <item itemvalue="Python.05_zoo" />
         <item itemvalue="Python.04_my_family" />
         <item itemvalue="Python.03_favorite_movies" />
         <item itemvalue="Python.02_operations" />
-        <item itemvalue="Python.01_circle" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +231,7 @@
       <workItem from="1579248992654" duration="1564000" />
       <workItem from="1579252865825" duration="10504000" />
       <workItem from="1579330449355" duration="2512000" />
-      <workItem from="1579420386417" duration="8247000" />
+      <workItem from="1579420386417" duration="9440000" />
     </task>
     <task id="LOCAL-00001" summary="ADD BestCodes.py">
       <created>1576724284992</created>
@@ -562,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579505843530</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="05.01 Complete">
+      <created>1579506407177</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1579506407177</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +591,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="change predrelise" />
     <MESSAGE value="add taskkill : key /t" />
     <MESSAGE value="add input" />
     <MESSAGE value="change registry.reg" />
@@ -609,7 +615,8 @@
     <MESSAGE value="02.01 Complete : create a formula" />
     <MESSAGE value="03.01 Complete: line output" />
     <MESSAGE value="04.01 Complete: two options" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.01 Complete: two options" />
+    <MESSAGE value="05.01 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.01 Complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Inspections" timestamp="1576723055700">
@@ -626,11 +633,11 @@
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576899171595" />
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578906911110" />
     <state x="2620" y="332" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578835499171" />
-    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1579505843049">
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1579506406301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198812170" />
-    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579505843049" />
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506406301" />
     <state x="2403" y="119" width="1311" height="812" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579333007665" />
     <state x="2012" y="95" width="1736" height="856" key="DiffContextDialog" timestamp="1579332890142">
       <screen x="1920" y="3" width="1920" height="1040" />
@@ -645,53 +652,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="420" width="356" height="200" key="Github.CreateGistDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579253368929" />
-    <state width="1877" height="454" key="GridCell.Tab.0.bottom" timestamp="1579506387390">
+    <state width="1877" height="454" key="GridCell.Tab.0.bottom" timestamp="1579507437418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387390" />
+    <state width="1877" height="454" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
     <state width="1877" height="447" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="1877" height="454" key="GridCell.Tab.0.center" timestamp="1579506387390">
+    <state width="1877" height="454" key="GridCell.Tab.0.center" timestamp="1579507437418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387390" />
+    <state width="1877" height="454" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
     <state width="1877" height="447" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="1877" height="454" key="GridCell.Tab.0.left" timestamp="1579506387389">
+    <state width="1877" height="454" key="GridCell.Tab.0.left" timestamp="1579507437418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387389" />
+    <state width="1877" height="454" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
     <state width="1877" height="447" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868867" />
-    <state width="1877" height="454" key="GridCell.Tab.0.right" timestamp="1579506387390">
+    <state width="1877" height="454" key="GridCell.Tab.0.right" timestamp="1579507437418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506387390" />
+    <state width="1877" height="454" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
     <state width="1877" height="447" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578713355915">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579507363283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576857460138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578713355915" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507363283" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578668580147" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1578713355915">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579507363283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576857460138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578713355915" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507363283" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578668580147" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1578713355915">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579507363283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576857460138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578713355915" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507363283" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578668580147" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1578713355915">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579507363283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576857460138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578713355915" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507363283" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578668580147" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1579266944442">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -756,6 +763,7 @@
     <SUITE FILE_PATH="coverage/PublicRepository$hacker_brute_force_01.coverage" NAME="hacker-brute-force-01 Coverage Results" MODIFIED="1576929140200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$checkUpdateCOHO.coverage" NAME="checkUpdateCOHO Coverage Results" MODIFIED="1578907288096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject" />
     <SUITE FILE_PATH="coverage/PublicRepository$AVRemover_v0_1.coverage" NAME="AVRemover-v0.1 Coverage Results" MODIFIED="1576991715546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
+    <SUITE FILE_PATH="coverage/PublicRepository$06_songs_list.coverage" NAME="06_songs_list Coverage Results" MODIFIED="1579507437412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$03_favorite_movies.coverage" NAME="03_favorite_movies Coverage Results" MODIFIED="1579504215361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$itertools_finished.coverage" NAME="itertools_finished Coverage Results" MODIFIED="1576723944354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm/Ex_Files_Adv_Python/Exercise Files/02 BuiltIn Functions" />
     <SUITE FILE_PATH="coverage/PublicRepository$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1578741216772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
