@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="">
+    <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="05.01 Complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_base/lesson_002/06_songs_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_002/06_songs_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_base/lesson_002/05_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_002/05_zoo.py" afterDir="false" />
     </list>
+    <list id="17c7b620-08a2-4f3d-862f-e3c38844f16b" name="09.01 Complete" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,29 +70,7 @@
       <recent name="D:\Python\PyCharm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.06_songs_list">
-    <configuration name="02_operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/02_operations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.05_zoo">
     <configuration name="03_favorite_movies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,13 +159,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="10_store" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_002/10_store.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.06_songs_list" />
         <item itemvalue="Python.05_zoo" />
-        <item itemvalue="Python.04_my_family" />
         <item itemvalue="Python.03_favorite_movies" />
-        <item itemvalue="Python.02_operations" />
+        <item itemvalue="Python.10_store" />
+        <item itemvalue="Python.06_songs_list" />
+        <item itemvalue="Python.04_my_family" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +209,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="" />
+      <changelist id="17c7b620-08a2-4f3d-862f-e3c38844f16b" name="09.01 Complete" comment="" />
       <created>1576723000930</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -232,41 +234,9 @@
       <workItem from="1579252865825" duration="10504000" />
       <workItem from="1579330449355" duration="2512000" />
       <workItem from="1579420386417" duration="9440000" />
-    </task>
-    <task id="LOCAL-00001" summary="ADD BestCodes.py">
-      <created>1576724284992</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1576724284992</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ADD not important">
-      <created>1576738879157</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1576738879157</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ADD BestCodes.py">
-      <created>1576753740245</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1576753740245</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ADD BestCodes.py">
-      <created>1576850237110</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1576850237110</updated>
-    </task>
-    <task id="LOCAL-00005" summary="ADD AVR">
-      <created>1576857425532</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1576857425532</updated>
+      <workItem from="1579517295245" duration="3292000" />
+      <workItem from="1579586333616" duration="5804000" />
+      <workItem from="1579626163165" duration="1201000" />
     </task>
     <task id="LOCAL-00006" summary="ADD BestCodes.py">
       <created>1576899073609</created>
@@ -569,7 +539,49 @@
       <option name="project" value="LOCAL" />
       <updated>1579506407177</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="09.01 Complete (Сомнения в правильности понимания задания)">
+      <created>1579520591114</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1579520591114</updated>
+    </task>
+    <task id="LOCAL-00050" summary="10.01 Complete stuff cost">
+      <created>1579600382994</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1579600382994</updated>
+    </task>
+    <task id="LOCAL-00051" summary="10.01 Complete?">
+      <created>1579600711440</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1579600711440</updated>
+    </task>
+    <task id="LOCAL-00052" summary="08.01 ВНИМАНИЕ: Исправление опечатки.">
+      <created>1579605202843</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1579605202843</updated>
+    </task>
+    <task id="LOCAL-00053" summary="01 Fixed">
+      <created>1579627555414</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1579627555414</updated>
+    </task>
+    <task id="LOCAL-00054" summary="03 Fixed">
+      <created>1579627716946</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1579627716946</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,12 +603,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="add taskkill : key /t" />
-    <MESSAGE value="add input" />
-    <MESSAGE value="change registry.reg" />
-    <MESSAGE value="change" />
-    <MESSAGE value="initial" />
-    <MESSAGE value="change что-то произошло" />
     <MESSAGE value="File created: os_info.txt (system properties)" />
     <MESSAGE value="change .gitignore" />
     <MESSAGE value="Delete TODO" />
@@ -616,7 +622,13 @@
     <MESSAGE value="03.01 Complete: line output" />
     <MESSAGE value="04.01 Complete: two options" />
     <MESSAGE value="05.01 Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.01 Complete" />
+    <MESSAGE value="09.01 Complete (Сомнения в правильности понимания задания)" />
+    <MESSAGE value="10.01 Complete stuff cost" />
+    <MESSAGE value="10.01 Complete?" />
+    <MESSAGE value="08.01 ВНИМАНИЕ: Исправление опечатки." />
+    <MESSAGE value="01 Fixed" />
+    <MESSAGE value="03 Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="03 Fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Inspections" timestamp="1576723055700">
@@ -633,11 +645,11 @@
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576899171595" />
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578906911110" />
     <state x="2620" y="332" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578835499171" />
-    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1579506406301">
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1579627716466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198812170" />
-    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579506406301" />
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579627716466" />
     <state x="2403" y="119" width="1311" height="812" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579333007665" />
     <state x="2012" y="95" width="1736" height="856" key="DiffContextDialog" timestamp="1579332890142">
       <screen x="1920" y="3" width="1920" height="1040" />
@@ -652,29 +664,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="420" width="356" height="200" key="Github.CreateGistDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579253368929" />
-    <state width="1877" height="454" key="GridCell.Tab.0.bottom" timestamp="1579507437418">
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom" timestamp="1579627965090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579627965090" />
     <state width="1877" height="447" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="1877" height="454" key="GridCell.Tab.0.center" timestamp="1579507437418">
+    <state width="1877" height="322" key="GridCell.Tab.0.center" timestamp="1579627965090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579627965090" />
     <state width="1877" height="447" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="1877" height="454" key="GridCell.Tab.0.left" timestamp="1579507437418">
+    <state width="1877" height="322" key="GridCell.Tab.0.left" timestamp="1579627965090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579627965090" />
     <state width="1877" height="447" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868867" />
-    <state width="1877" height="454" key="GridCell.Tab.0.right" timestamp="1579507437418">
+    <state width="1877" height="322" key="GridCell.Tab.0.right" timestamp="1579627965090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577181336105" />
-    <state width="1877" height="454" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579507437418" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579627965090" />
     <state width="1877" height="447" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579507363283">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -706,31 +718,31 @@
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577011983420" />
     <state x="463" y="165" key="SettingsEditor/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579266944442" />
     <state x="2383" y="168" key="SettingsEditor/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578836115238" />
-    <state x="807" y="436" key="VCS.ChangelistChooser" timestamp="1579259154181">
+    <state x="807" y="436" key="VCS.ChangelistChooser" timestamp="1579517333540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="807" y="436" key="VCS.ChangelistChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579259154181" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1579333026475">
-      <screen x="1920" y="3" width="1920" height="1040" />
+    <state x="807" y="436" key="VCS.ChangelistChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579517333540" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1579600729346">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198798277" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579272068985" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579600729346" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579333026475" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579431630080">
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579605211824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577071820120" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579431630080" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579605211824" />
     <state x="2689" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579332654353" />
     <state x="2433" y="165" width="607" height="804" key="find.popup" timestamp="1579332851718">
       <screen x="1920" y="3" width="1920" height="1040" />
     </state>
     <state x="2433" y="165" width="607" height="804" key="find.popup/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579332851718" />
-    <state x="664" y="323" key="git4idea.merge.GitPullDialog" timestamp="1579431639608">
+    <state x="664" y="323" key="git4idea.merge.GitPullDialog" timestamp="1579605220098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="323" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576738727455" />
-    <state x="664" y="323" key="git4idea.merge.GitPullDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579431639608" />
+    <state x="664" y="323" key="git4idea.merge.GitPullDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579605220098" />
     <state x="2584" y="326" key="git4idea.merge.GitPullDialog/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579332675751" />
     <state x="765" y="385" key="git4idea.rebase.GitRebaseDialog" timestamp="1579253292646">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -751,9 +763,10 @@
     <SUITE FILE_PATH="coverage/PublicRepository$hacker_brute_force.coverage" NAME="hacker-brute-force Coverage Results" MODIFIED="1576928073217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$lib_winreg.coverage" NAME="lib_winreg Coverage Results" MODIFIED="1576841180493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyCode" />
     <SUITE FILE_PATH="coverage/PublicRepository$02_operations.coverage" NAME="02_operations Coverage Results" MODIFIED="1579504108297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
-    <SUITE FILE_PATH="coverage/PublicRepository$05_zoo.coverage" NAME="05_zoo Coverage Results" MODIFIED="1579506387383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
+    <SUITE FILE_PATH="coverage/PublicRepository$05_zoo.coverage" NAME="05_zoo Coverage Results" MODIFIED="1579627965083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$setup.coverage" NAME="setup Coverage Results" MODIFIED="1578832304838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/build" />
     <SUITE FILE_PATH="coverage/PublicRepository$00_distance.coverage" NAME="00_distance Coverage Results" MODIFIED="1579502151708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
+    <SUITE FILE_PATH="coverage/PublicRepository$10_store.coverage" NAME="10_store Coverage Results" MODIFIED="1579600693483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$test.coverage" NAME="test Coverage Results" MODIFIED="1579098868859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$04_my_family.coverage" NAME="04_my_family Coverage Results" MODIFIED="1579505747030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$01_os_info.coverage" NAME="01_os_info Coverage Results" MODIFIED="1579267956869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_001" />
@@ -764,7 +777,7 @@
     <SUITE FILE_PATH="coverage/PublicRepository$checkUpdateCOHO.coverage" NAME="checkUpdateCOHO Coverage Results" MODIFIED="1578907288096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject" />
     <SUITE FILE_PATH="coverage/PublicRepository$AVRemover_v0_1.coverage" NAME="AVRemover-v0.1 Coverage Results" MODIFIED="1576991715546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
     <SUITE FILE_PATH="coverage/PublicRepository$06_songs_list.coverage" NAME="06_songs_list Coverage Results" MODIFIED="1579507437412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
-    <SUITE FILE_PATH="coverage/PublicRepository$03_favorite_movies.coverage" NAME="03_favorite_movies Coverage Results" MODIFIED="1579504215361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
+    <SUITE FILE_PATH="coverage/PublicRepository$03_favorite_movies.coverage" NAME="03_favorite_movies Coverage Results" MODIFIED="1579627685796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$itertools_finished.coverage" NAME="itertools_finished Coverage Results" MODIFIED="1576723944354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm/Ex_Files_Adv_Python/Exercise Files/02 BuiltIn Functions" />
     <SUITE FILE_PATH="coverage/PublicRepository$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1578741216772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
     <SUITE FILE_PATH="coverage/PublicRepository$server.coverage" NAME="server Coverage Results" MODIFIED="1578914929262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/MyServer" />
