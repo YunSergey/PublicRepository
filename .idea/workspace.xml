@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="10 Fixed">
+    <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_base/lesson_003/07_wall.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_003/07_wall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_base/lesson_004/01_shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_004/01_shapes.py" afterDir="false" />
     </list>
     <list id="17c7b620-08a2-4f3d-862f-e3c38844f16b" name="09.01 Complete" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,13 @@
       <recent name="D:\Python\PyCharm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.00_bubbles">
+  <component name="RunManager" selected="Python.01_shapes">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PublicRepository/2. Верстка таблицы/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PublicRepository/Maraphon 01/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="00_bubbles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_envelop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_shapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,12 +108,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_003" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_004" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_003/02_envelop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_004/01_shapes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,64 +122,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_base" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyCharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_003" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyCharm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_003/04_student.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="05_store" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_003" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_003/05_store.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="07_wall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_base/lesson_003" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_base/lesson_003/07_wall.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyCharm/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_shapes" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Python.00_bubbles" />
-        <item itemvalue="Python.07_wall" />
-        <item itemvalue="Python.05_store" />
-        <item itemvalue="Python.04_student" />
-        <item itemvalue="Python.02_envelop" />
       </list>
     </recent_temporary>
   </component>
@@ -241,21 +203,10 @@
       <workItem from="1580193828297" duration="8083000" />
       <workItem from="1580308499778" duration="2481000" />
       <workItem from="1580348618230" duration="3931000" />
-      <workItem from="1580403222232" duration="711000" />
-    </task>
-    <task id="LOCAL-00022" summary="add input">
-      <created>1578883091394</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1578883091394</updated>
-    </task>
-    <task id="LOCAL-00023" summary="change registry.reg">
-      <created>1578888456938</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1578888456938</updated>
+      <workItem from="1580403222232" duration="1084000" />
+      <workItem from="1580616412196" duration="171000" />
+      <workItem from="1580657902779" duration="8266000" />
+      <workItem from="1582118362797" duration="6733000" />
     </task>
     <task id="LOCAL-00024" summary="change">
       <created>1578930537850</created>
@@ -586,7 +537,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580403668973</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Fixed">
+      <created>1580403940445</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1580403940445</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Fixed">
+      <created>1580403983563</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1580403983563</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,11 +615,11 @@
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576899171595" />
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578906911110" />
     <state x="2620" y="332" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578835499171" />
-    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1580403668481">
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1582204503101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198812170" />
-    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580403668481" />
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582204503101" />
     <state x="2403" y="119" width="1311" height="812" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579333007665" />
     <state x="1991" y="70" width="1736" height="856" key="DiffContextDialog" timestamp="1580202390810">
       <screen x="1920" y="3" width="1920" height="1040" />
@@ -670,29 +635,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="420" width="356" height="200" key="Github.CreateGistDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579253368929" />
-    <state width="938" height="322" key="GridCell.Tab.0.bottom" timestamp="1580403657856">
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom" timestamp="1582204435559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
-    <state width="938" height="322" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580403657856" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582204435559" />
     <state width="1877" height="447" key="GridCell.Tab.0.bottom/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="938" height="322" key="GridCell.Tab.0.center" timestamp="1580403657856">
+    <state width="1877" height="322" key="GridCell.Tab.0.center" timestamp="1582204435558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="322" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
-    <state width="938" height="322" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580403657856" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582204435558" />
     <state width="1877" height="447" key="GridCell.Tab.0.center/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
-    <state width="938" height="322" key="GridCell.Tab.0.left" timestamp="1580403657855">
+    <state width="1877" height="322" key="GridCell.Tab.0.left" timestamp="1582204435558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="322" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
-    <state width="938" height="322" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580403657855" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582204435558" />
     <state width="1877" height="447" key="GridCell.Tab.0.left/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868867" />
-    <state width="938" height="322" key="GridCell.Tab.0.right" timestamp="1580403657856">
+    <state width="1877" height="322" key="GridCell.Tab.0.right" timestamp="1582204435559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="322" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579614684895" />
-    <state width="938" height="322" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580403657856" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582204435559" />
     <state width="1877" height="447" key="GridCell.Tab.0.right/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579098868868" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579507363283">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -740,28 +705,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="807" y="436" key="VCS.ChangelistChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579517333540" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580352872744">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580403996593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198798277" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580352872744" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580403996593" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579333026475" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580223348785">
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582118477177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577071820120" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580223348785" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582118477177" />
     <state x="2689" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579332654353" />
     <state x="513" y="162" width="737" height="804" key="find.popup" timestamp="1580193969235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="513" y="162" width="737" height="804" key="find.popup/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580193969235" />
     <state x="2433" y="165" width="607" height="804" key="find.popup/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579332851718" />
-    <state x="664" y="323" key="git4idea.merge.GitPullDialog" timestamp="1580403551121">
+    <state x="664" y="323" key="git4idea.merge.GitPullDialog" timestamp="1580437829461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="323" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576738727455" />
-    <state x="664" y="323" key="git4idea.merge.GitPullDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580403551121" />
+    <state x="664" y="323" key="git4idea.merge.GitPullDialog/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580437829461" />
     <state x="2584" y="326" key="git4idea.merge.GitPullDialog/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579332675751" />
     <state x="765" y="385" key="git4idea.rebase.GitRebaseDialog" timestamp="1579253292646">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -788,7 +753,7 @@
     <SUITE FILE_PATH="coverage/PublicRepository$setup.coverage" NAME="setup Coverage Results" MODIFIED="1578832304838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/build" />
     <SUITE FILE_PATH="coverage/PublicRepository$00_distance.coverage" NAME="00_distance Coverage Results" MODIFIED="1579502151708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$10_store.coverage" NAME="10_store Coverage Results" MODIFIED="1579655872245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
-    <SUITE FILE_PATH="coverage/PublicRepository$test.coverage" NAME="test Coverage Results" MODIFIED="1579098868859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
+    <SUITE FILE_PATH="coverage/PublicRepository$test.coverage" NAME="test Coverage Results" MODIFIED="1580799184741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyCharm" />
     <SUITE FILE_PATH="coverage/PublicRepository$08_smile.coverage" NAME="08_smile Coverage Results" MODIFIED="1580203530782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_003" />
     <SUITE FILE_PATH="coverage/PublicRepository$04_my_family.coverage" NAME="04_my_family Coverage Results" MODIFIED="1579505747030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
     <SUITE FILE_PATH="coverage/PublicRepository$07_secret.coverage" NAME="07_secret Coverage Results" MODIFIED="1579628022430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_002" />
@@ -798,6 +763,7 @@
     <SUITE FILE_PATH="coverage/PublicRepository$00_bubbles.coverage" NAME="00_bubbles Coverage Results" MODIFIED="1580403657843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_003" />
     <SUITE FILE_PATH="coverage/PublicRepository$CheckCost4.coverage" NAME="CheckCost4 Coverage Results" MODIFIED="1577072959530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/CheckCost" />
     <SUITE FILE_PATH="coverage/PublicRepository$07_wall.coverage" NAME="07_wall Coverage Results" MODIFIED="1580352031072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_003" />
+    <SUITE FILE_PATH="coverage/PublicRepository$01_shapes.coverage" NAME="01_shapes Coverage Results" MODIFIED="1582204435550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_004" />
     <SUITE FILE_PATH="coverage/PublicRepository$06_rainbow.coverage" NAME="06_rainbow Coverage Results" MODIFIED="1580194314260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_003" />
     <SUITE FILE_PATH="coverage/PublicRepository$AVRemover1.coverage" NAME="AVRemover1 Coverage Results" MODIFIED="1577024941890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../YunSergeyBasket/MyProject/AVRemover" />
     <SUITE FILE_PATH="coverage/PublicRepository$01_days_in_month.coverage" NAME="01_days_in_month Coverage Results" MODIFIED="1580203234014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_base/lesson_003" />
