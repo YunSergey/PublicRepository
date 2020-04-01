@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cbf1e95-cf8b-4d26-a636-390afa9319ea" name="Default Changelist" comment="01. Убрал TODO">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_base/lesson_004/01_shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_004/01_shapes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_base/lesson_004/practice/02_fractal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_004/practice/02_fractal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_base/lesson_004/02_global_color.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_004/02_global_color.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_base/lesson_004/practice/02_snowflake.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base/lesson_004/practice/02_snowflake.py" afterDir="false" />
     </list>
     <list id="17c7b620-08a2-4f3d-862f-e3c38844f16b" name="09.01 Complete" comment="" />
@@ -251,14 +249,7 @@
       <workItem from="1585207819119" duration="7554000" />
       <workItem from="1585390014850" duration="1346000" />
       <workItem from="1585562408991" duration="26783000" />
-      <workItem from="1585706195419" duration="590000" />
-    </task>
-    <task id="LOCAL-00033" summary="Insert link to screenshot">
-      <created>1579271503122</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1579271503122</updated>
+      <workItem from="1585706195419" duration="860000" />
     </task>
     <task id="LOCAL-00034" summary="Replace &quot;Черная курточка&quot; on &quot;Красная шапочка&quot; in lesson_001/red_hat">
       <created>1579271821486</created>
@@ -596,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585657277325</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="01. Поправил и добавил комментарий">
+      <created>1585706816047</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1585706816048</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +616,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
-    <MESSAGE value="03.01 Complete: line output" />
     <MESSAGE value="04.01 Complete: two options" />
     <MESSAGE value="05.01 Complete" />
     <MESSAGE value="09.01 Complete (Сомнения в правильности понимания задания)" />
@@ -643,7 +640,8 @@
     <MESSAGE value="04. Не могу решить" />
     <MESSAGE value="04. Переписал программу" />
     <MESSAGE value="05. Выполнено" />
-    <option name="LAST_COMMIT_MESSAGE" value="05. Выполнено" />
+    <MESSAGE value="01. Поправил и добавил комментарий" />
+    <option name="LAST_COMMIT_MESSAGE" value="01. Поправил и добавил комментарий" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Notifications" timestamp="1579267004993">
@@ -655,10 +653,10 @@
     </state>
     <state x="700" y="329" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578906911110" />
     <state x="2620" y="332" key="#com.intellij.fileTypes.FileTypeChooser/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1578835499171" />
-    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1585657276921">
+    <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2" timestamp="1585706815051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="287" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1585657276921" />
+    <state x="287" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.3.1920.1040@0.0.1920.1040" timestamp="1585706815051" />
     <state x="598" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198812170" />
     <state x="287" y="38" width="1567" height="959" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582206769663" />
     <state x="2403" y="119" width="1311" height="812" key="CommitChangelistDialog2/1920.3.1920.1040/0.0.1920.1040@1920.3.1920.1040" timestamp="1579333007665" />
