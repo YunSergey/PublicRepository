@@ -1,0 +1,14 @@
+# Script: Send Mail and File
+# Version: 1.00
+# Yun Sergey (c) 2020
+# URL: https://mhelp.pro/
+
+#Multiple line script
+/tool e-mail send to=destination_mail@mail.com \
+    server=[:resolve "smtp.mail.com"] port=465 start-tls=tls-only \
+    user="source mail@mail.com" password="Password"  from="source mail@mail.com" \
+    subject="Subject" body="Simple Text" \
+    file="file_for_send.txt"
+
+#One line script
+/tool e-mail send to=destination_mail@mail.com server=[:resolve "smtp.mail.com"] port=465 start-tls=tls-only user="source mail@mail.com" password="Password"  from="source mail@mail.com" subject="Subject" body="Simple Text" file="file_for_send.txt"
