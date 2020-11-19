@@ -1,0 +1,24 @@
+# Script name: SendMail
+# Description: Calling the function of sending an e-mail.
+# Version: 1.00
+# Yun Sergey (c) 2020
+# Pass these parameters to the main function::
+# * SendTo - email address to send the message;
+# * Subject - email subject;
+# * TextMail - email text;
+# * FileName - filename to send from folder Files (optional).
+# URL: https://mhelp.pro/
+
+# Variables
+:local DeviceName [/system identity get name];
+:local Time [/system clock get time];
+:local Date [/system clock get date];
+
+:local SendTo "destination_mail@mail.com";
+:local Subject "\F0\9F\9F\A2 INFO: $DeviceName [$Date $Time]";
+:local MessageText "This informational message indicates the successful execution of the script on device $DeviceName";
+:local FileName "telegram.txt";
+
+# Main script code
+:local SendTelegramMessage [:parse [/system script  get SendMailMainFunction source]];
+$SendTelegramMessage SendTo=$SendTo TextMail=$MessageText Subject=$Subject FileName=$FileName;
