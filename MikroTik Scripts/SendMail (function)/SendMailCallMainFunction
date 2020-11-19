@@ -20,5 +20,5 @@
 :local FileName "telegram.txt";
 
 # Main script code
-:local SendTelegramMessage [:parse [/system script  get SendMailMainFunction source]];
-$SendTelegramMessage SendTo=$SendTo TextMail=$MessageText Subject=$Subject FileName=$FileName;
+:local SendMail [:parse [/system script get SendMailMainFunction source]];
+$SendMail SendTo=$SendTo TextMail=$MessageText Subject=$Subject FileName=$FileName;
