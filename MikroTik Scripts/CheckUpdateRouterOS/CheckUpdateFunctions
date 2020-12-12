@@ -24,7 +24,7 @@
     :log info "Script CheckUpdateFunctions - New version is available, send notify.";
 
     # START SEND EMAIL MESSAGE
-    :local SendTo "unicomkz@gmail.com";
+    :local SendTo "notify@mhelp.ro";
     :local Subject "\F0\9F\93\A6 UPDATE: $DeviceName [$Date $Time]";
     :local SendText $EmailMessageText;
     :local FileName "";
