@@ -1,5 +1,0 @@
-﻿Name;Password;Service;Profile;Local Adress;Remove Address
-user01;Qwerty;sstp;default;192.168.0.1;192.168.10.1
-user02;;pptp;;192.168.0.2;
-user03;Qwerty;;default-encryption;;
-user04;Qwerty;pppoe;;192.168.0.4;192.168.10.4
