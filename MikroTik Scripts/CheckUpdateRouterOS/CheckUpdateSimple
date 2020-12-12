@@ -1,4 +1,4 @@
-# Name: CheckUpdateSimple v1
+# Name: CheckUpdateSimple v1.0.1
 # Description: Check for RouterOS update (simple, not functions)  and send notification
 # Author: Yun Sergey, MHelp.pro 2020
 # License: GPL-3.0 License
@@ -21,7 +21,7 @@
 
     :local TelegramMessageText "MikroTik RouterOS - New version $LatestVersion is available! %0D%0A Installed version $InstalledVersion, chanell $Channel. %0D%0A <a href=\"https://mikrotik.com/download/changelogs\">Changelogs</a>";
 
-    :log info "Script CheckUpdate - New version is available, send notify.";
+    :log info "Script CheckUpdateSimple - New version is available, send notify.";
 
     # START SEND EMAIL MESSAGE
     :local SendFrom "from_mail@mhelp.pro";
