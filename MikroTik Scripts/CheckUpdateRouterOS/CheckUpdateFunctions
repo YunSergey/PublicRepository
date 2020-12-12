@@ -1,0 +1,45 @@
+# Name: CheckUpdateFunctions v1
+# Description: Check for RouterOS update (use functions: EMailSendMessageFunction, TGBotSendMessageFunction)  and send notification
+# Author: Yun Sergey, MHelp.pro 2020
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-scripts-check-routeros-update/
+
+:local DeviceName [/system identity get name];
+:local Date [/system clock get date];
+:local Time [/system clock get time];
+
+:local CheckUpdate [/system package update check-for-updates as-value];
+:local Channel ($CheckUpdate -> "channel");
+:local InstalledVersion ($CheckUpdate -> "installed-version");
+:local LatestVersion ($CheckUpdate -> "latest-version");
+
+:log info "Script CheckUpdateFunctions - Run.";
+
+:if ($InstalledVersion != $LatestVersion) do={
+
+    :local EmailMessageText "MikroTik RouterOS - New version $LatestVersion is available! \0D\0AInstalled version $InstalledVersion, chanell $Channel. \0D\0AChangelogs: https://mikrotik.com/download/changelogs";
+
+    :local TelegramMessageText "MikroTik RouterOS - New version $LatestVersion is available! %0D%0A Installed version $InstalledVersion, chanell $Channel. %0D%0A <a href=\"https://mikrotik.com/download/changelogs\">Changelogs</a>";
+
+    :log info "Script CheckUpdateFunctions - New version is available, send notify.";
+
+    # START SEND EMAIL MESSAGE
+    :local SendTo "unicomkz@gmail.com";
+    :local Subject "\F0\9F\93\A6 UPDATE: $DeviceName [$Date $Time]";
+    :local SendText $EmailMessageText;
+    :local FileName "";
+    :local SendEmail [:parse [/system script get EMailSendMessageFunction source]];
+    $SendEmail SendTo=$SendTo TextMail=$SendText Subject=$Subject FileName=$FileName;
+    # END SEND EMAIL MESSAGE
+
+    # START SEND TELEGRAM MESSAGE
+    :local  SendText "\F0\9F\93\A6 <b>UPDATE $DeviceName [$Date $Time]:</b> %0D%0A $TelegramMessageText";
+    :local SendTelegramMessage [:parse [/system script  get TGBotSendMessageFunction source]];
+    $SendTelegramMessage MessageText=$SendText;
+    # END SEND TELEGRAM MESSAGE
+
+    } else={
+:log info "Script CheckUpdateFunctions - System is already up to date.";
+};
+:delay 1;
+:log info "Script CheckUpdateFunctions - Completed.";
