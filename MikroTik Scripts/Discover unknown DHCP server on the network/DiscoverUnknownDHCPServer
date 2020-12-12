@@ -29,7 +29,7 @@ $SendTelegramMessage MessageText=$MessageText;
 :local Date [/system clock get date];
 :local FileName "";
 
-:local SendTo "unicomkz@gmail.com";
+:local SendTo "notify@mhelp.com";
 :local Subject "\F0\9F\94\B4 CRITICAL: $DeviceName [$Date $Time] UNKNOWN DHCP SERVER FOUND!";
 :local MessageText "$MsgText";
 
