@@ -1,0 +1,53 @@
+# Name: CheckUpdateSimple v1
+# Description: Check for RouterOS update (simple, not functions)  and send notification
+# Author: Yun Sergey, MHelp.pro 2020
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-scripts-check-routeros-update/
+
+:local DeviceName [/system identity get name];
+:local Date [/system clock get date];
+:local Time [/system clock get time];
+
+:local CheckUpdate [/system package update check-for-updates as-value];
+:local Channel ($CheckUpdate -> "channel");
+:local InstalledVersion ($CheckUpdate -> "installed-version");
+:local LatestVersion ($CheckUpdate -> "latest-version");
+
+:log info "Script CheckUpdateSimple - Run.";
+
+:if ($InstalledVersion != $LatestVersion) do={
+
+    :local EmailMessageText "MikroTik RouterOS - New version $LatestVersion is available! \0D\0AInstalled version $InstalledVersion, chanell $Channel. \0D\0AChangelogs: https://mikrotik.com/download/changelogs";
+
+    :local TelegramMessageText "MikroTik RouterOS - New version $LatestVersion is available! %0D%0A Installed version $InstalledVersion, chanell $Channel. %0D%0A <a href=\"https://mikrotik.com/download/changelogs\">Changelogs</a>";
+
+    :log info "Script CheckUpdate - New version is available, send notify.";
+
+    # START SEND EMAIL MESSAGE
+    :local SendFrom "from_mail@mhelp.pro";
+    :local PasswordMail "Password";
+    :local SmtpServer [:resolve "smtp.mhelp.pro"];
+    :local UserName "from_mail@mhelp.pro";
+    :local SmtpPort 465;
+    :local UseTLS "tls-only";
+    :local SendTo "notify@mhelp.pro";
+    :local Subject "\F0\9F\93\A6 UPDATE: $DeviceName [$Date $Time]";
+    :local SendText $EmailMessageText;
+    /tool e-mail send to=$SendTo server=$SmtpServer port=$SmtpPort start-tls=$UseTLS user=$SendFrom password=$PasswordMail  from=$SendFrom subject=$Subject body=$SendText;
+    # END SEND EMAIL MESSAGE
+
+    # START SEND TELEGRAM MESSAGE
+    :local BotToken "YourBotToken";
+    :local ChatID "YourChatID";
+    :local ParseMode "html";
+    :local DisableWebPagePreview True;
+    :local SendText "\F0\9F\93\A6 <b>UPDATE $DeviceName [$Date $Time]:</b> %0D%0A $TelegramMessageText";
+    :local tgUrl "https://api.telegram.org/bot$BotToken/sendMessage?chat_id=$ChatID&text=$SendText&parse_mode=$ParseMode&disable_web_page_preview=$DisableWebPagePreview";
+    /tool fetch http-method=get url=$tgUrl keep-result=no;
+    # END SEND TELEGRAM MESSAGE
+
+    } else={
+:log info "Script CheckUpdateSimple - System is already up to date.";
+};
+:delay 1;
+:log info "Script CheckUpdateSimple - Completed.";
