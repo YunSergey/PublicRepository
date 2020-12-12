@@ -1,0 +1,38 @@
+# Script name: DiscoverUnknownDHCPServer
+# Version: 1.00
+# Yun Sergey (c) 2020
+# This script uses the previously created "SendMail(function)"
+# SendMail(function): https://mhelp.pro/mikrotik-scripts-sending-notifications-and-files-to-email/
+# The following values must be passed to the function:
+# * SendTo - email address to send the message;
+# * Subject - email subject;
+# * TextMail - email text;
+# * FileName - filename to send from folder Files.
+# URL: https://mhelp.pro/
+
+:local CurrentTime [/system clock get time];
+:log info $CurrentTime;
+:local MsgID [/log find where message ~"dhcp alert" time =$CurrentTime];
+:local MsgText [/log get number=$MsgID message];
+
+:local DeviceName [/system identity get name];
+
+:local MessageText "\F0\9F\94\B4 <b>$DeviceName: UNKNOWN DHCP SERVER FOUND! </b> Info: $CurrentTime $MsgText";
+
+:local SendTelegramMessage [:parse [/system script  get MyTGBotSendMessage source]];
+
+$SendTelegramMessage MessageText=$MessageText;
+
+# Variables
+:local DeviceName [/system identity get name];
+:local Time [/system clock get time];
+:local Date [/system clock get date];
+:local FileName "";
+
+:local SendTo "unicomkz@gmail.com";
+:local Subject "\F0\9F\94\B4 CRITICAL: $DeviceName [$Date $Time] UNKNOWN DHCP SERVER FOUND!";
+:local MessageText "$MsgText";
+
+# Main script code
+:local SendEmail [:parse [/system script get SendEmailFunction source]];
+$SendEmail SendTo=$SendTo TextMail=$MessageText Subject=$Subject FileName=$FileName;
