@@ -1,0 +1,83 @@
+# Name: CreatePPPUsers v1
+# Description: Bulk create VPN users from a file
+# Author: Yun Sergey, MHelp.pro 2020
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-script-bulk-create-vpn-users-from-a-file/
+# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik/
+
+:local FileName "FileTemplate.csv";
+
+:log warning "Script CreatePPPUsers: running. Import from file: $FileName";
+
+:if ([/file get $FileName size]  > 4096) do={
+    :log error "Error run script CreatePPPUsers: file size exceeded 4 KB (size constraint of a variable in Router OS 6). Split the file $FileName into several parts.";
+    :error "File size exceeded 4 KB. Stop script."
+};
+
+:local Content [/file get $FileName contents];
+:local ContentLen [:len $Content];
+:set Content [:pick $Content 62 $ContentLen];
+
+:local StartCursor 0;
+:local EndCursor;
+:local LineEndCursor;
+
+:while ($StartCursor < [:len $Content]) do={
+
+    :set LineEndCursor [:find $Content "\r" $StartCursor];
+
+    :local  Cont;
+
+    :local ColumnsArray { "01Name"="" ; "02Password"="" ; "03Service"="" ; "04Profile"="" ; "05LocalAdress"="" ; "06RemoveAddress"=""};
+
+    # START PARSING STRING
+    :foreach Key,Value in=$ColumnsArray do={
+
+        :local Symbol [:pick $Content $StartCursor];
+
+        :if ($Symbol =";") do={:set StartCursor ($StartCursor - 1)};
+
+        :set EndCursor [:find $Content ";" $StartCursor];
+
+        :if (($EndCursor > $LineEndCursor) or ([:typeof $EndCursor]="nil")) do={:set EndCursor [:find $Content "\r" ($StartCursor-1)];};
+
+        :set Cont [:pick $Content $StartCursor $EndCursor];
+
+        :set ($ColumnsArray -> $Key ) $Cont;
+
+        :set StartCursor ($EndCursor+1);
+    };
+    # END PARSING STRING
+
+    # START CREATE COMMAND
+    :local UserName ($ColumnsArray -> "01Name");
+
+    :if ([/ppp secret find name=$UserName ]) do={
+        :log info "Add PPP user: $UserName - already exist! Skipped.";
+    } else={
+        :local Command "/ppp secret add name=$UserName";
+
+        :local UserPassword ($ColumnsArray -> "02Password");
+        :if ($UserPassword != ";") do= {:set Command ("$Command" . " password=$UserPassword")};
+
+        :local UserService ($ColumnsArray -> "03Service");
+        :if ($UserService != ";") do= {:set Command ("$Command" . " service=$UserService")};
+
+        :local UserProfile ($ColumnsArray -> "04Profile");
+        :if ($UserProfile != ";") do= {:set Command ("$Command" . " profile=$UserProfile")};
+
+        :local UserLocalAdress ($ColumnsArray -> "05LocalAdress");
+        :if ($UserLocalAdress != ";") do= {:set Command ("$Command" . " local-address=$UserLocalAdress")};
+
+        :local UserRemoveAddress ($ColumnsArray -> "06RemoveAddress");
+        :if ($UserRemoveAddress != ";") do= {:set Command ("$Command" . " remote-address=$UserRemoveAddress")};
+
+        [:parse $Command];
+
+    };
+    # END CREATE COMMAND
+
+    :set StartCursor ($EndCursor+2);
+};
+:delay 2;
+:log warning "Script CreatePPPUsers: completed.";
