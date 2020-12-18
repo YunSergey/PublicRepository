@@ -1,4 +1,4 @@
-# Name: CreatePPPUsers v1
+# Name: CreatePPPUsers v1.1
 # Description: Bulk create VPN users from a file
 # Author: Yun Sergey, MHelp.pro 2020
 # License: GPL-3.0 License
@@ -6,6 +6,7 @@
 # More scripts Mikrotik: https://mhelp.pro/tag/mikrotik/
 
 :local FileName "FileTemplate.csv";
+:local Separator ";";
 
 :log warning "Script CreatePPPUsers: running. Import from file: $FileName";
 
@@ -28,16 +29,16 @@
 
     :local  Cont;
 
-    :local ColumnsArray { "01Name"="" ; "02Password"="" ; "03Service"="" ; "04Profile"="" ; "05LocalAdress"="" ; "06RemoveAddress"=""};
+    :local ColumnsArray { "01Name"=""; "02Password"=""; "03Service"=""; "04Profile"=""; "05LocalAdress"=""; "06RemoveAddress"=""};
 
     # START PARSING STRING
     :foreach Key,Value in=$ColumnsArray do={
 
         :local Symbol [:pick $Content $StartCursor];
 
-        :if ($Symbol =";") do={:set StartCursor ($StartCursor - 1)};
+        :if ($Symbol=$Separator) do={:set StartCursor ($StartCursor - 1)};
 
-        :set EndCursor [:find $Content ";" $StartCursor];
+        :set EndCursor [:find $Content $Separator $StartCursor];
 
         :if (($EndCursor > $LineEndCursor) or ([:typeof $EndCursor]="nil")) do={:set EndCursor [:find $Content "\r" ($StartCursor-1)];};
 
@@ -58,19 +59,19 @@
         :local Command "/ppp secret add name=$UserName";
 
         :local UserPassword ($ColumnsArray -> "02Password");
-        :if ($UserPassword != ";") do= {:set Command ("$Command" . " password=$UserPassword")};
+        :if ($UserPassword != $Separator) do= {:set Command ("$Command" . " password=$UserPassword")};
 
         :local UserService ($ColumnsArray -> "03Service");
-        :if ($UserService != ";") do= {:set Command ("$Command" . " service=$UserService")};
+        :if ($UserService != $Separator) do= {:set Command ("$Command" . " service=$UserService")};
 
         :local UserProfile ($ColumnsArray -> "04Profile");
-        :if ($UserProfile != ";") do= {:set Command ("$Command" . " profile=$UserProfile")};
+        :if ($UserProfile != $Separator) do= {:set Command ("$Command" . " profile=$UserProfile")};
 
         :local UserLocalAdress ($ColumnsArray -> "05LocalAdress");
-        :if ($UserLocalAdress != ";") do= {:set Command ("$Command" . " local-address=$UserLocalAdress")};
+        :if ($UserLocalAdress != $Separator) do= {:set Command ("$Command" . " local-address=$UserLocalAdress")};
 
         :local UserRemoveAddress ($ColumnsArray -> "06RemoveAddress");
-        :if ($UserRemoveAddress != ";") do= {:set Command ("$Command" . " remote-address=$UserRemoveAddress")};
+        :if ($UserRemoveAddress != $Separator) do= {:set Command ("$Command" . " remote-address=$UserRemoveAddress")};
 
         [:parse $Command];
 
