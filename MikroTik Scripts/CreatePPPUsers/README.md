@@ -1,6 +1,10 @@
 # Create PPP Users
 Bulk create VPN users from a CSV file
 
+## Files
++ **CreatePPPUsers** - MikroTik script;
++ **FileTemplate.zip** - file template for creating users.
+
 ## Description
 + [EN: Bulk create VPN users from a file](https://mhelp.pro/mikrotik-script-bulk-create-vpn-users-from-a-file/);
 + [ES: Crear usuarios de VPN de forma masiva a partir de un archivo](https://mhelp.pro/es/mikrotik-script-crear-usuarios-de-vpn-de-forma-masiva-a-partir-de-un-archivo/); 
