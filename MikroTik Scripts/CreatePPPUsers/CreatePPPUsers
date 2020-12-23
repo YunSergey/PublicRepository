@@ -3,10 +3,10 @@
 # Author: Yun Sergey, MHelp.pro 2020
 # License: GPL-3.0 License
 # Description, purpose and questions: https://mhelp.pro/mikrotik-script-bulk-create-vpn-users-from-a-file/
-# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik/
+# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
 
 :local FileName "FileTemplate.csv";
-:local Separator ";";
+:local Separator ",";
 
 :log warning "Script CreatePPPUsers: running. Import from file: $FileName";
 
