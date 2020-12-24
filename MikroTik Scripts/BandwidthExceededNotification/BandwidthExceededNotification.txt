@@ -1,0 +1,46 @@
+# Name: BandwidthExceededNotification v1
+# Description: Bandwidth Exceeded Notification
+# Author: Yun Sergey, MHelp.pro 2020
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-script-bandwidth-excess-notification/
+# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
+# Verified: RouterBOARD 952Ui-5ac2nD, RouterOS 6.48 (stable).
+
+:local NotifyPeriod [:totime "00:05:00"];
+:local Interface "MyInternetProvider";
+:local Threshold "30M";
+
+:local DeviceName [/system identity get name];
+:local Time [/system clock get time];
+:local Date [/system clock get date];
+:global TMonExtIntefaceNotifyLastTime;
+:local CurrentTime [/system clock get time];
+:local TimeShift ($CurrentTime - $TMonExtIntefaceNotifyLastTime);
+
+#:log info "Script BandwidthExceededNotification - start.";
+
+:if ($TimeShift > $NotifyPeriod) do={
+
+    #:log info "Script BandwidthExceededNotification - Bandwidth excess, send message.";
+
+    :local EmailMessageText "Interface: $Interface - bandwidth exceeded ($Threshold). See Traffic Monitor";
+    :local TelegramMessageText "Interface: $Interface - bandwidth exceeded ($Threshold). See Traffic Monitor";
+
+    # START SEND EMAIL
+    :local SendTo "notify@mhelp.pro";
+    :local Subject "\F0\9F\93\88 Bandwidth Exceeded: $DeviceName [$Date $Time]";
+    :local MessageText "$EmailMessageText";
+    :local FileName "";
+    :local SendEmail [:parse [/system script get EMailSendMessageFunction source]];
+    $SendEmail SendTo=$SendTo TextMail=$MessageText Subject=$Subject FileName=$FileName;
+    # END SEND EMAIL
+
+    # START SEND TELEGRAM
+    :local MessageText "\F0\9F\93\88 <b>$DeviceName: Bandwidth Exceeded</b> %0D%0A $TelegramMessageText";
+    :local SendTelegramMessage [:parse [/system script  get TGBotSendMessageFunction source]];
+    $SendTelegramMessage MessageText=$MessageText;
+    # END SEND TELEGRAM
+
+    :set TMonExtIntefaceNotifyLastTime $CurrentTime;
+};
+#:log info "Script BandwidthExceededNotification - end.";
