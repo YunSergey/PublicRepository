@@ -5,8 +5,6 @@ My public repository
 
 ## MikroTik Scripts
 
-
-
 - [CheckUpdateRouterOS](https://github.com/YunSergey/PublicRepository/tree/master/MikroTik%20Scripts/CheckUpdateRouterOS) - 
 Checking for RouterOS updates and sending notifications (e-mail, Telegram);
 
