@@ -16,4 +16,4 @@ Bulk create VPN users from a CSV file;
 - [BandwidthExceededNotification](https://github.com/YunSergey/PublicRepository/tree/master/MikroTik%20Scripts/BandwidthExceededNotification) -
 Bandwidth excess notification (email, Telegram); 
 
-[More MikroTik scripts...](https://mhelp.pro/tag/mikrotik-scripts/)
+[More MikroTik scripts...](https://mhelp.pro/tag/mikrotik-scripts/utm_source=github)
