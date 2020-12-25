@@ -1,6 +1,7 @@
 # Device Overheating Notification
 
 Notification when the device temperature rises above the threshold. Sends notification to email or Telegram message.
+
 ## Description
 + [EN: Device overheating notification](https://mhelp.pro/mikrotik-scripts-device-overheating-notification/utm_source=github);
 + [ES: Notificación de sobrecalentamiento del dispositivo](https://mhelp.pro/es/mikrotik-scripts-notificacion-de-sobrecalentamiento-del-dispositivo/utm_source=github);
@@ -18,3 +19,5 @@ Specify variables:
 Verified: RouterBOARD 3011UiAS, RouterOS 6.47.8 (stable)
 
 Yun Sergey [MHelp.pro] 2020
+
+![MHelp.pro - MikroTik Script: Device processor overload notification](https://mhelp.pro/wp-content/uploads/2020/11/mikrotik-scripts-device-overheating-notification.jpg)
