@@ -1,0 +1,40 @@
+# Name: DeviceOverheatingNotification v1
+# Description: Notification when the device temperature rises above the threshold. Sends notification to email or Telegram message.
+# Author: Yun Sergey, MHelp.pro 2020
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-scripts-device-overheating-notification/
+# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
+# Verified: RouterBOARD 3011UiAS, RouterOS 6.47.8 (stable)
+
+:local MaxCPUTemp 65;
+:local CurrentTemp [/system health get temperature];
+:local CurrentCPULoad [/system resource get cpu-load];
+:local DeviceName [/system identity get name ];
+:local Time [/system clock get time];
+:local Date [/system clock get date];
+
+#:log info "Script DeviceOverheatingNotification - start.";
+
+:if ($CurrentTemp > $MaxCPUTemp) do={
+
+    #:log info "Script DeviceOverheatingNotification - Temperature threshold exceeded! Send Telegram message.";
+
+    # START Send Telegram Message
+    :local MessageText "\F0\9F\94\B4 <b>CRITICAL: $DeviceName Device Overheating!</b> %0D%0A Device Temperature: $CurrentTemp %C2%B0 C  %0D%0A CPU Load: $CurrentCPULoad %";
+    :local SendTelegramMessage [:parse [/system script  get MyTGBotSendMessage source]];
+    $SendTelegramMessage MessageText=$MessageText;
+    # END Send Telegram Message
+
+    #:log info "Script DeviceOverheatingNotification - Temperature threshold exceeded! Send Email.";
+
+    # START Send Email
+    :local SendTo "notify@mhelp.pro";
+    :local Subject "\F0\9F\94\B4 CRITICAL: $DeviceName [$Date $Time]";
+    :local MessageText "Device Temperature: $CurrentTemp °C, CPU Load: $CurrentCPULoad %";
+    :local FileName "";
+    :local SendEmail [:parse [/system script get SendEmailFunction source]];
+    $SendEmail SendTo=$SendTo TextMail=$MessageText Subject=$Subject FileName=$FileName;
+    # END Send Email
+}
+
+#:log info "Script DeviceOverheatingNotification - end.";
