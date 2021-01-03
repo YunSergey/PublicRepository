@@ -1,11 +1,10 @@
-# Script name: ParseLogAccountEvents
-# Version: 1.00
-# Yun Sergey (c) 2020
-# URL: https://mhelp.pro/mikrotik-script-device-login-notification/
-# The following functions are used to send notifications:
-# Function call – send e-mail (https://mhelp.pro/mikrotik-scripts-sending-notifications-and-files-to-email/);
-# Function call – send a Telegram message (https://mhelp.pro/mikrotik-scripts-sending-a-message-to-telegram/).
-
+# Name: ParseLogAccountEvents v1
+# Description: Successful login notification (email, Telegram message)
+# Author: Yun Sergey [MHelp.pro] © 2020
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-script-device-login-notification/
+# More scripts MikroTik: https://mhelp.pro/tag/mikrotik-scripts/
+# Verified: RouterBOARD 952Ui-5ac2nD, RouterOS 6.48 (stable).
 
 :local DeviceName [/system identity get name];
 :local Time [/system clock get time];
@@ -46,4 +45,3 @@
 }
 
 :set ParseLogAccountEndArrayID $EndArrayID;
-# YunSergey. More scripts: https://mhelp.pro/tag/mikrotik/
