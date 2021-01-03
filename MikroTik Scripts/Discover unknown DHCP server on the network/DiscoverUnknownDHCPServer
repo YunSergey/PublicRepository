@@ -4,6 +4,7 @@
 # License: GPL-3.0 License
 # Description, purpose and questions: https://mhelp.pro/mikrotik-scripts-discover-unknown-dhcp-server-on-the-network/
 # More scripts MikroTik: https://mhelp.pro/tag/mikrotik-scripts/
+# Verified: RouterBOARD 952Ui-5ac2nD, RouterOS 6.48 (stable).
 
 :local CurrentTime [/system clock get time];
 :log info $CurrentTime;
