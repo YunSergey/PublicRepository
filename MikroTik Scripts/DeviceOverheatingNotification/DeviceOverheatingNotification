@@ -1,6 +1,6 @@
 # Name: DeviceOverheatingNotification v1
 # Description: Notification when the device temperature rises above the threshold. Sends notification to email or Telegram message.
-# Author: Yun Sergey, MHelp.pro 2020
+# Author: Yun Sergey [MHelp.pro] © 2020
 # License: GPL-3.0 License
 # Description, purpose and questions: https://mhelp.pro/mikrotik-scripts-device-overheating-notification/
 # More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
