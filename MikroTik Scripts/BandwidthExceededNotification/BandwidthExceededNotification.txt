@@ -3,7 +3,7 @@
 # Author: Yun Sergey [MHelp.pro] © 2020
 # License: GPL-3.0 License
 # Description, purpose and questions: https://mhelp.pro/mikrotik-script-bandwidth-excess-notification/
-# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
+# More scripts MikroTik: https://mhelp.pro/tag/mikrotik-scripts/
 # Verified: RouterBOARD 952Ui-5ac2nD, RouterOS 6.48 (stable).
 
 :local NotifyPeriod [:totime "00:05:00"];
