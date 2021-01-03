@@ -1,6 +1,6 @@
-# Name: BandwidthExceededNotification v1
+# Name: BandwidthExceededNotification v1.01
 # Description: Bandwidth Exceeded Notification
-# Author: Yun Sergey, MHelp.pro 2020
+# Author: Yun Sergey [MHelp.pro] © 2020
 # License: GPL-3.0 License
 # Description, purpose and questions: https://mhelp.pro/mikrotik-script-bandwidth-excess-notification/
 # More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
