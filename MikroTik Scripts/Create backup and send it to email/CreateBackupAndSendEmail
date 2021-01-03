@@ -1,20 +1,15 @@
-# Script name: CreateBackupAndSendEmail
-# Version: 1.00
-# Yun Sergey (c) 2020
-# This script uses the previously created "SendMail(function)"
-# SendMail(function): https://mhelp.pro/mikrotik-scripts-sending-notifications-and-files-to-email/
-# The following values must be passed to the function:
-# * SendTo - email address to send the message;
-# * Subject - email subject;
-# * TextMail - email text;
-# * FileName - filename to send from folder Files.
-# URL: https://mhelp.pro/
+# Name: CreateBackupAndSendEmail v1.01
+# Description: Create backup and send email
+# Author: Yun Sergey [MHelp.pro] © 2020
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-scripts-create-backup-and-send-to-email/
+# More scripts MikroTik: https://mhelp.pro/tag/mikrotik-scripts/
 
 #Variables
 :local DeviceName [/system identity get name];
 :local Date [/system clock get date];
 
-:local SendTo "destination_mail@mail.com";
+:local SendTo "notify@mhelp.pro";
 :local Subject "\F0\9F\93\A6 BACKUP: $DeviceName [$Date]";
 :local MessageText "$DeviceName - device backup file ";
 :local FileName "backup_file.backup";
