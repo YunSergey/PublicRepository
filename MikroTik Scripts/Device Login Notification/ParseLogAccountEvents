@@ -1,4 +1,4 @@
-# Name: ParseLogAccountEvents v1
+# Name: ParseLogAccountEvents v1.1
 # Description: Successful login notification (email, Telegram message)
 # Author: Yun Sergey [MHelp.pro] © 2020
 # License: GPL-3.0 License
@@ -27,6 +27,8 @@
         :set EmailMessageText "$EmailMessageText \n\r  $[/log get number=$IDMessage time] - $[/log get number=$IDMessage message];";
         :set TelegramMessageText "$TelegramMessageText %0D%0A  $[/log get number=$IDMessage time] - $[/log get number=$IDMessage message];";
         }
+
+    :set ParseLogAccountEndArrayID $EndArrayID;
 
     # START SEND EMAIL
     :local SendTo "notify@mhelp.pro";
