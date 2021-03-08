@@ -1,0 +1,34 @@
+# Name: WorkTimeInterface v1
+# Description: Enable or disable the selected interface on a schedule.
+# Author: Yun Sergey [MHelp.pro] © 2021
+# License: GPL-3.0 License
+# Description, purpose and questions: https://mhelp.pro/mikrotik-how-to-disable-enable-the-interface-on-a-schedule/
+# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
+# Verified: RouterBOARD 952Ui-5ac2nD, RouterOS 6.48.1 (stable)
+
+:local InterfaceName wlan2-5GHz;
+:local StartEnableTime [:totime "08:00:00"];
+:local EndEnableTime [:totime "20:00:00"];
+
+:local StatusInterface [/interface get $InterfaceName disabled];
+:local CurrenTime [/system clock get time];
+
+#:log info "Script WorkTimeInterface running. Interface $InterfaceName disabled: $StatusInterface.";
+
+:if ( $StartEnableTime < $CurrenTime and $CurrenTime < $EndEnableTime) do={
+    #:log info "Script WorkTimeInterface: work time.";
+    :if  ($StatusInterface) do={
+        [/interface set $InterfaceName disabled=no];
+        :log info "Script WorkTimeInterface: interface $InterfaceName was disabled, enabled the interface.";
+    } else={
+        #:log info "Script WorkTimeInterface: skip enable interface, $InterfaceName already enabled.";
+    };
+
+} else={
+    #:log info "Script WorkTimeInterface: not work time";
+    :if  (!$StatusInterface) do={
+        [/interface set $InterfaceName disabled=yes];
+        :log info "Script WorkTimeInterface: interface $InterfaceName was enabled, disabled the interface."
+    }
+}
+#:log info "Script WorkTimeInterface finished. Interface $InterfaceName disabled: $StatusInterface.";
