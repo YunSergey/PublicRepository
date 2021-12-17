@@ -1,0 +1,22 @@
+# Script name: SendMailScript
+# Description: The function of sending a mail message.
+# Version: 1.00
+# Yun Sergey (c) 2020
+# The following values must be passed to the function:
+# * SendTo - email address to send the message;
+# * Subject - email subject;
+# * TextMail - email text;
+# * FileName - filename to send from folder Files (optional).
+# URL: https://mhelp.pro/ru/mikrotik-skripty-otpravit-pismo-i-fayl-na-pochtu/
+# Checked: RouterOS v6.48.2
+
+# Variables
+:local SendFrom "source_mail@mail.com";
+:local PasswordMail "Password";
+:local SmtpServer [:resolve "smtp.mail.com"];
+:local UserName "source_mail@mail.com";
+:local SmtpPort 465;
+:local UseTLS "yes";
+
+# Main script code
+/tool e-mail send to=$SendTo server=$SmtpServer port=$SmtpPort tls=$UseTLS user=$SendFrom password=$PasswordMail from=$SendFrom subject=$Subject body=$TextMail file=$FileName;
