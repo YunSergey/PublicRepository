@@ -1,14 +1,14 @@
 # Script name: SendMailScript
 # Description: The function of sending a mail message.
 # Version: 1.00
-# Yun Sergey (c) 2020
+# Yun Sergey (c) 2021
 # The following values must be passed to the function:
 # * SendTo - email address to send the message;
 # * Subject - email subject;
 # * TextMail - email text;
 # * FileName - filename to send from folder Files (optional).
 # URL: https://mhelp.pro/ru/mikrotik-skripty-otpravit-pismo-i-fayl-na-pochtu/
-# Checked: RouterOS v6.48.2
+# Checked: RouterOS v7.1
 
 # Variables
 :local SendFrom "source_mail@mail.com";
