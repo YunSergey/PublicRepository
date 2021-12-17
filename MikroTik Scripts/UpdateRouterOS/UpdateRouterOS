@@ -1,0 +1,24 @@
+# Name: UpdateRouterOS v1
+# Description: RouterOS version check and install script
+# Author: Yun Sergey [MHelp.pro] © 2021
+# License: GPL-3.0 License
+# More scripts Mikrotik: https://mhelp.pro/tag/mikrotik-scripts/
+# Verified: RouterBOARD 952Ui-5ac2nD, RouterOS 7.1 (stable)
+
+:local DeviceName [ /system identity get name ];
+/system package update;
+:delay 3s;
+:if ( [get status] != "New version is available") do={
+
+    :log info "New RouterOS version $[get latest-version] is available, start to install.";
+
+    # START Send Telegram Message
+    :local MessageText "\F0\9F\9F\A1 <b>$DeviceName New version RouterOS $[get latest-version] is available</b> %0D%0A The device will try to install and reboot";
+    :local TGSendMessage [:parse [/system script  get TGBotSendMessageFunction source]];
+    $TGSendMessage MessageText=$MessageText;
+    # END Send Telegram Message
+
+    install;
+
+    :log info "New RouterOS version $[get latest-version] installed successfully";
+}
