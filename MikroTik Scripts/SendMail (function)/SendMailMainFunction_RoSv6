@@ -8,6 +8,7 @@
 # * TextMail - email text;
 # * FileName - filename to send from folder Files (optional).
 # URL: https://mhelp.pro/ru/mikrotik-skripty-otpravit-pismo-i-fayl-na-pochtu/
+# Checked: RouterOS v6.48.2
 
 # Variables
 :local SendFrom "source_mail@mail.com";
