@@ -57,4 +57,4 @@ fabric.properties
 .idea/httpRequests
 
 #venv
-venv/**
+/venv/
