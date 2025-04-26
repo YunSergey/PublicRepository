@@ -5,4 +5,5 @@
 0.0.0.0 s2517.com
 0.0.0.0 obrut.show
 0.0.0.0 obrut.stream
+0.0.0.0 aquila.cloud.obrut.stream
 
