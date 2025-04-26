@@ -8,3 +8,5 @@
 0.0.0.0 aquila.cloud.obrut.stream
 0.0.0.0 meteor.cloud.obrut.stream
 0.0.0.0 aj2635.bid
+0.0.0.0 s.myangular.life
+0.0.0.0 kodir2.github.io
