@@ -10,3 +10,5 @@
 0.0.0.0 aj2635.bid
 0.0.0.0 s.myangular.life
 0.0.0.0 kodir2.github.io
+0.0.0.0 s.schulist.link
+0.0.0.0 schulist.link
